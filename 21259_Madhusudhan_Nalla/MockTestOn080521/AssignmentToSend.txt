@@ -1,0 +1,124 @@
+             Name::Madhusudhan Nalla
+             id::mn21259
+           
+             1) 2
+             2) 1 
+             3) 2
+             4) 3
+             5) 5
+             6) 2
+             9) B and D
+            10) C
+            11) NullPointerException
+            12) nullnullnullnull
+            13) Child
+	    14) Object
+            15)--
+            16) 6
+
+             17)JVM::It stands for Java Virtual Mechine.
+                     It is the part of the JRE
+                     It executes our java byte code
+                     And JVM is platform dependent
+             
+             18)For suppose you wrote a code in one system and you can able to run that byte code in another mechine.
+                   Nothing but write once run anywhere
+             
+             19)Object class is the superclass of all classes.
+ 
+             20)Path::InOrder to execute .bat, .cmd, .exe file from anywhere of the location in system you no need to arrange that specific 
+                       file location physically in cmd prompt. Just add that file location in path to execute..
+                        Actually path is not a java specific cmd...
+                ClassPath::InOrder to execute other than java files like third party jars etc... you need to add that jars to the classpath 
+                             to recognize that jars by the java tools
+                              It is java specific cmd..
+
+             21)public class GetNaturalNumbers {
+	        public static String getNaturalNumbers(int startVal, int endVal) {
+	 	String result = "";
+		if(startVal>0 && endVal>0) {
+			int i = startVal;
+		while (i <= endVal) {
+			result =result + i + " ";
+			i++;
+		                    }
+		return result;
+		    }
+		else 
+			return result="-1";
+	                }
+
+	        public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter starting and ending value");
+		System.out.println(getNaturalNumbers(sc.nextInt(), sc.nextInt()));
+	        }
+               }
+
+            22)import java.util.Scanner;
+               public class ReverseOfString {
+	       static String reverseOfString(String str) {
+		   String result="";
+		   char[] ch=str.toCharArray();
+		   for(int i=ch.length-1;i>=0;i--) {
+			   result+=ch[i];
+		   }
+		   return result;
+	        }
+
+	        public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter string");
+		System.out.println(reverseOfString(sc.nextLine()));
+	        }
+                }
+
+
+             24) if declare a variable with Final keyword then that variable not allow to change
+                 if declare a class with Final keyword you cant inherit that class from another class
+                 if declare a method with Final keyword then you cant override it means you cant change the body of that method
+
+             25) Package is nothing but declaring the .class file location
+                 It is the group of similer type of classes, subpackages......etc
+
+             26) Exception is nothing but an abnormal condition. It represents the error condition
+                     it is caused by progarammer mistakes and they are recoverable
+                       ToHandle Exception
+                          try....catch, throw, throws, finally 
+
+              27) Keyword is specific instructions given to the JVM to execute..
+                  super keyword is used to get the super class instance variables values........
+
+ 
+              28) Performs the operations on null reference..
+
+              29) By using throw keyword..
+
+              30)public class AscendingOrder {
+	         public static void main(String args[]) {
+		 int arr[]= {10,20,4,3};
+		 int temp=0;
+		 for(int i=0;i<arr.length;i++) {
+			 for(int j=i+1;j<arr.length;j++) {
+				 if(arr[i]>arr[j]) {
+					 temp=arr[i];
+					 arr[i]=arr[j];
+					 arr[j]=temp;
+				 }
+			 }
+		 }
+			 for(int i=0;i<arr.length;i++) {
+				 System.out.println(arr[i]);
+			 }
+		 }
+			 
+	         }
+ 
+
+
+
+
+
+
+
+
