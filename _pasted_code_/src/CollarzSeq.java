@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CollarzSeq {
-
+String name="madhu";
 	public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 		System.out.println("enter a nmbr");
