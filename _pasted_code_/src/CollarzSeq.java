@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CollarzSeq {
 String name="madhu";
-
+String hai="hai";
 
 	public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
